@@ -1,0 +1,34 @@
+header {
+    background-color: #1a8014;
+    border: #0b1f08;
+    border-style: solid;
+
+    nav {
+        padding-top: 0px !important;
+        padding-bottom: 0px !important;
+
+        div {
+            background-color: #13d60856 !important;
+
+            a {
+                &:hover {
+                    background-color: #003800;
+                    color: rgb(255, 255, 255) !important;
+                    border-radius: 10px !important;
+                }
+            }
+
+            div {
+                ul {
+                    li {
+                        font-size: 25px;
+                        font-family: Quicksand, sans-serif;
+                        padding-left: 15px;
+                        padding-bottom: 15px;
+                        padding-top: 30px;
+                    }
+                }
+            }
+        }
+    }
+}

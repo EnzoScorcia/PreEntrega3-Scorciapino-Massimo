@@ -1,0 +1,15 @@
+@import "./base/pages";
+@import "./base/header";
+@import "./base/footer";
+@import "./base/mediaquery";
+
+//! VARIABLES
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Quicksand, sans-serif;
+}
+

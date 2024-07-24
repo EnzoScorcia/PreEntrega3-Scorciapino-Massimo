@@ -1,0 +1,523 @@
+.hero {
+    text-align: center;
+    font-size: 25px;
+    font-family: Quicksand, sans-serif;
+    background-image: url(../img/fondojapon.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+
+    .linklista {
+        color: black;
+        padding: 0 5px;
+        text-decoration: none;
+
+        &:hover {
+            background-color: #003800;
+            color: rgb(255, 255, 255);
+            border-radius: 10px;
+        }
+    }
+}
+
+.pecho {
+    display: grid;
+    grid-template-columns: 80% 20%;
+    grid-template-rows: 1fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+        "main aside";
+
+    .mainindex {
+        background-color: #19960cab;
+        border-style: solid;
+        border-left: #0b1f08;
+        border-bottom: #0b1f08;
+        border-right: #0b1f08;
+        grid-area: main;
+
+        .centro {
+            padding-top: 15px;
+            justify-content: center;
+
+            .somos {
+                display: flex;
+                justify-content: center;
+
+                img {
+                    border: #0b1f08;
+                    border-style: solid;
+                }
+
+                div {
+                    width: 350px;
+
+                    h2 {
+                        font-size: 30px;
+                    }
+
+                    p {
+                        font-size: 20px;
+                    }
+                }
+            }
+
+            .muestra {
+                font-size: 22px;
+
+                h3 {
+                    font-size: 25px;
+                    text-align: center;
+                    text-decoration: underline;
+                    padding-bottom: 25px;
+                }
+            }
+
+            .galeria {
+                display: grid;
+                grid-template-columns: 300px 300px 300px;
+                grid-template-rows: 300px 300px 300px;
+                row-gap: 25px;
+                column-gap: 25px;
+                grid-auto-flow: row;
+                grid-template-areas:
+                    "foto1 foto2 foto3"
+                    "foto1 foto4 foto4"
+                    "foto5 foto5 foto5";
+                padding: 30px;
+                justify-content: center;
+
+                .foto1 {
+                    grid-area: foto1;
+
+                    img {
+                        border: #0b1f08;
+                        border-style: solid;
+                    }
+                }
+
+                .foto2 {
+                    grid-area: foto2;
+
+                    img {
+                        border: #0b1f08;
+                        border-style: solid;
+                    }
+                }
+
+                .foto3 {
+                    grid-area: foto3;
+
+                    img {
+                        border: #0b1f08;
+                        border-style: solid;
+                    }
+                }
+
+                .foto4 {
+                    grid-area: foto4;
+
+                    img {
+                        border: #0b1f08;
+                        border-style: solid;
+                    }
+                }
+
+                .foto5 {
+                    grid-area: foto5;
+
+                    img {
+                        border: #0b1f08;
+                        border-style: solid;
+                    }
+                }
+            }
+        }
+    }
+
+    aside {
+        grid-area: aside;
+        padding-top: 15px;
+        background-color: #22b112b9;
+        border-style: solid;
+        border-right: #0b1f08;
+        border-bottom: none;
+
+        h3 {
+            font-size: 25px;
+            text-align: center;
+            text-decoration: underline;
+            padding-bottom: 25px;
+        }
+
+        .nombre {
+            padding-left: 25px;
+        }
+
+        .email {
+            padding-left: 25px;
+        }
+
+        contrasena {
+            padding-left: 25px;
+        }
+
+        .genero {
+            padding-left: 25px;
+        }
+
+        .datos {
+            padding-top: 25px;
+
+            h4 {
+                text-align: center;
+                text-decoration: underline;
+            }
+
+            h5 {
+                padding-top: 5px;
+                text-align: center;
+            }
+
+            span {
+                padding-top: 25px;
+            }
+        }
+    }
+}
+
+
+/*--ESPECIES--*/
+
+
+div {
+    .especiesh1 {
+        font-size: 50px;
+        background-color: #19960cab;
+        text-align: center;
+        margin: 0px;
+    }
+}
+
+
+main {
+    .carouselbox {
+        display: flex;
+        justify-content: center;
+        background-color: #19960cab;
+        border: #0b1f08;
+        border-style: solid;
+        padding: 25px;
+    }
+
+    .carouselexample {
+        .carousel-inner {
+            width: 100px !important;
+            height: auto !important;
+        }
+    }
+
+    .tallo1 {
+        text-align: center;
+        width: 800px;
+
+        .tallo {
+            text-decoration: underline;
+            text-align: center;
+            font-size: 35px;
+        }
+
+        p {
+            font-size: 22px;
+        }
+    }
+}
+
+aside {
+    .galeriaespecies {
+        background-color: #115f08ab;
+        display: grid;
+        grid-template-columns: 300px 300px 300px;
+        grid-template-rows: 300px 300px 300px;
+        row-gap: 25px;
+        column-gap: 25px;
+        grid-auto-flow: row;
+        grid-template-areas:
+            "especie1 especie2 especie2"
+            "especie1 especie3 especie3"
+            "especie4 especie3 especie3";
+        padding: 30px;
+        justify-content: center;
+
+        .especie1 {
+            grid-area: especie1;
+
+            h2 {
+                position: absolute;
+                display: block;
+                background-color: rgba(128, 128, 128, 0.404);
+            }
+
+            img {
+                border: #0b1f08;
+                border-style: solid;
+            }
+        }
+
+        .especie2 {
+            grid-area: especie2;
+
+            h2 {
+                position: absolute;
+                display: block;
+                background-color: rgba(128, 128, 128, 0.404);
+            }
+
+            img {
+                border: #0b1f08;
+                border-style: solid;
+            }
+        }
+
+        .especie3 {
+            grid-area: especie3;
+
+            h2 {
+                position: absolute;
+                display: block;
+                background-color: rgba(128, 128, 128, 0.404);
+            }
+
+            img {
+                border: #0b1f08;
+                border-style: solid;
+            }
+        }
+
+        .especie4 {
+            grid-area: especie4;
+
+            h2 {
+                position: absolute;
+                display: block;
+                background-color: rgba(128, 128, 128, 0.404);
+            }
+
+            img {
+                border: #0b1f08;
+                border-style: solid;
+            }
+        }
+    }
+}
+
+//! Origen
+
+main {
+    p {
+        font-size: 25px;
+    }
+}
+
+aside {
+    .accordion {
+        .accordion-item {
+            background-color: #19960cab !important;
+
+            h2 {
+                button {
+                    background-color: #19f800a4 !important;
+                }
+            }
+
+            .collapseone {
+                .accordion-body {
+                    div {
+                        p {
+                            text-align: center;
+                            font-size: 20px;
+                        }
+                    }
+                }
+
+            }
+        }
+    }
+}
+
+//! Comprar
+
+main {
+    background-color: #19960cab;
+
+    .titulo {
+        h1 { 
+            text-decoration: underline;
+            text-align: center;
+        }
+    }
+    
+.imgcarrito{
+    display: flex;
+    justify-content: end;
+    .carrito{
+        margin-right: 2px;
+        border: #0b1f08 solid 2px;
+        border-radius: 2px;
+        background-image: url(../img/Carrito.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 40px;
+        height: 40px;
+            }
+    }
+div{
+    .tarjetascompra1 {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+
+        .tarjeta1,
+        .tarjeta2,
+        .tarjeta3 {
+            display: flex;
+            flex-direction: column;
+            background-color: #84df84;
+            padding: 15px;
+            border: #0b1f08 solid 2px;
+            margin: 25px;
+            transition: 1s;
+            &:hover{
+                transform: rotateY(360deg);
+            }
+            img {
+                border: #0b1f08 solid 2px
+            }
+
+            div {
+                display: flex;
+                flex-direction: row;
+                a {
+                    text-align: center;
+                    text-decoration: none;
+                    font-size: 25px;
+                    margin-top: 6px;
+                    width: 150px;
+
+                    &:hover {
+                        border: #0b1f08 solid 2px;
+                        border-radius: 60px;
+                        margin-top: 2px;
+                    }
+                }
+            }
+
+            h4 {
+                text-align: center;
+            }
+        }
+    }
+
+    .tarjetascompra2 {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+
+        .tarjeta4,
+        .tarjeta5,
+        .tarjeta6 {
+            display: flex;
+            flex-direction: column;
+            background-color: #84df84;
+            padding: 15px;
+            border: #0b1f08 solid 2px;
+            margin: 25px;
+            transition: 1s;
+            &:hover{
+                transform: rotateY(360deg);
+            }
+            img {
+                border: #0b1f08 solid 2px
+            }
+
+            div {
+                display: flex;
+                flex-direction: row;
+                a {
+                    text-align: center;
+                    text-decoration: none;
+                    font-size: 25px;
+                    margin-top: 6px;
+                    width: 150px;
+
+                    &:hover {
+                        border: #0b1f08 solid 2px;
+                        border-radius: 60px;
+                        margin-top: 2px;
+                    }
+                }
+            }
+
+            h4 {
+                text-align: center;
+            }
+        }
+    }
+
+    .tarjetascompra3 {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+
+        .tarjeta7,
+        .tarjeta8,
+        .tarjeta9 {
+            display: flex;
+            flex-direction: column;
+            background-color: #84df84;
+            padding: 15px;
+            border: #0b1f08 solid 2px;
+            margin: 25px;
+            transition: 1s;
+            &:hover{
+                transform: rotateY(360deg);
+            }
+            img {
+                border: #0b1f08 solid 2px
+            }
+
+            div {
+                display: flex;
+                flex-direction: row;
+                a {
+                    text-align: center;
+                    text-decoration: none;
+                    font-size: 25px;
+                    margin-top: 6px;
+                    width: 150px;
+
+                    &:hover {
+                        border: #0b1f08 solid 2px;
+                        border-radius: 60px;
+                        margin-top: 2px;
+                    }
+                }
+            }
+
+            h4 {
+                text-align: center;
+            }
+        }
+    }
+}
+}
+
+//!------CARRITO
+
+main .proximamente{
+    text-align: center;
+    height: 100vh;
+    text-decoration:underline;
+    font-size: 100px;
+}

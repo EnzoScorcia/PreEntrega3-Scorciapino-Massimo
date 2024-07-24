@@ -1,0 +1,18 @@
+{
+  "name": "proyecto_bonsai",
+  "version": "1.0.0",
+  "description": "<h1 align=\"center\">Hola! Me Llamo Enzo Scorciapino</h1>\r <h3 align=\"center\">Soy de Buenos Aires, Argentina y estoy iniciando en la programación</h3>",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1", 
+    "build-css": "node-sass --include-path scss scss/estilos.scss css/estilos.css",
+    "watch-css": "nodemon -e scss -x \"npm run build-css\""
+
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "node-sass": "^9.0.0",
+    "nodemon": "^3.1.4"
+  }
+}
