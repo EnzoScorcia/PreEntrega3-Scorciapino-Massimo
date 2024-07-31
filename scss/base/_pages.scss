@@ -96,7 +96,11 @@
 
                 .foto1 {
                     grid-area: foto1;
+                    transition: 1s;
 
+                    &:hover {
+                        transform: scale(1.1);
+                    }
                     img {
                         border: #0b1f08;
                         border-style: solid;
@@ -105,7 +109,11 @@
 
                 .foto2 {
                     grid-area: foto2;
+                    transition: 1s;
 
+                    &:hover {
+                        transform: scale(1.1);
+                    }
                     img {
                         border: #0b1f08;
                         border-style: solid;
@@ -114,7 +122,11 @@
 
                 .foto3 {
                     grid-area: foto3;
+                    transition: 1s;
 
+                    &:hover {
+                        transform: scale(1.1);
+                    }
                     img {
                         border: #0b1f08;
                         border-style: solid;
@@ -123,7 +135,11 @@
 
                 .foto4 {
                     grid-area: foto4;
+                    transition: 1s;
 
+                    &:hover {
+                        transform: scale(1.1);
+                    }
                     img {
                         border: #0b1f08;
                         border-style: solid;
@@ -132,7 +148,11 @@
 
                 .foto5 {
                     grid-area: foto5;
+                    transition: 1s;
 
+                    &:hover {
+                        transform: scale(1.1);
+                    }
                     img {
                         border: #0b1f08;
                         border-style: solid;
@@ -321,33 +341,49 @@ aside {
 //! Origen
 
 main {
+    border-bottom-style: solid;
     p {
         font-size: 25px;
+        text-align: center;
+        margin-bottom: 0px;
     }
 }
 
-aside {
-    .accordion {
-        .accordion-item {
-            background-color: #19960cab !important;
+.asideorigen {
+    background-color: #84df84;
+    margin-top: 0px;
+    h2 {
+        text-align: center;
+        text-decoration: underline;
+    }
 
-            h2 {
-                button {
-                    background-color: #19f800a4 !important;
-                }
-            }
+    h3 {
+        text-align: center;
+        text-shadow: -8px 8px 7px rgba(1,123,44,0.7);
+    }
 
-            .collapseone {
-                .accordion-body {
-                    div {
-                        p {
-                            text-align: center;
-                            font-size: 20px;
-                        }
+    .origenimgp {display: flex;
+        justify-content: space-around;
+                img {
+                    margin: 25px;
+                    transition: 1s;
+                    filter: blur(5px);
+                    -webkit-filter: blur(5px);
+                    -moz-filter: blur(5px);
+                    &:hover {
+                        transform: scale(1.1);
+                        filter: none;
                     }
-                }
-
-            }
+            border: #0b1f08;
+            border-style: solid;
+            margin-bottom: 20px;
+            box-shadow: -18px 19px 30px 0px rgba(5,107,3,0.76);
+-webkit-box-shadow: -18px 19px 30px 0px rgba(5,107,3,0.76);
+-moz-box-shadow: -18px 19px 30px 0px rgba(5,107,3,0.76);
+        }
+        p {
+            font-size: 26px;
+            text-align: center;
         }
     }
 }
@@ -645,23 +681,31 @@ main {
         }
     }
 
-    .cultivo3 {display: flex;
-        justify-content:center;
-        img {            
+    .cultivo3 {
+        display: flex;
+        justify-content: center;
+
+        img {
             margin: 5px;
             border-color: #0b1f08;
-            border-style: solid;}
-        .textocultivo{width: 800px;
-            h2 {                
+            border-style: solid;
+        }
+
+        .textocultivo {
+            width: 800px;
+
+            h2 {
                 text-decoration: underline;
                 text-shadow: 4px 4px 2px rgba(39, 95, 20, 0.6);
                 text-align: center;
             }
 
-            p {text-align: center;}
+            p {
+                text-align: center;
+            }
 
 
-            h3 {                
+            h3 {
                 text-decoration: underline;
                 text-shadow: 4px 4px 2px rgba(39, 95, 20, 0.6);
                 text-align: center;

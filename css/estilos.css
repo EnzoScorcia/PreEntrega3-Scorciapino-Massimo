@@ -66,27 +66,42 @@
         padding: 30px;
         justify-content: center; }
         .pecho .mainindex .centro .galeria .foto1 {
-          grid-area: foto1; }
+          grid-area: foto1;
+          transition: 1s; }
+          .pecho .mainindex .centro .galeria .foto1:hover {
+            transform: scale(1.1); }
           .pecho .mainindex .centro .galeria .foto1 img {
             border: #0b1f08;
             border-style: solid; }
         .pecho .mainindex .centro .galeria .foto2 {
-          grid-area: foto2; }
+          grid-area: foto2;
+          transition: 1s; }
+          .pecho .mainindex .centro .galeria .foto2:hover {
+            transform: scale(1.1); }
           .pecho .mainindex .centro .galeria .foto2 img {
             border: #0b1f08;
             border-style: solid; }
         .pecho .mainindex .centro .galeria .foto3 {
-          grid-area: foto3; }
+          grid-area: foto3;
+          transition: 1s; }
+          .pecho .mainindex .centro .galeria .foto3:hover {
+            transform: scale(1.1); }
           .pecho .mainindex .centro .galeria .foto3 img {
             border: #0b1f08;
             border-style: solid; }
         .pecho .mainindex .centro .galeria .foto4 {
-          grid-area: foto4; }
+          grid-area: foto4;
+          transition: 1s; }
+          .pecho .mainindex .centro .galeria .foto4:hover {
+            transform: scale(1.1); }
           .pecho .mainindex .centro .galeria .foto4 img {
             border: #0b1f08;
             border-style: solid; }
         .pecho .mainindex .centro .galeria .foto5 {
-          grid-area: foto5; }
+          grid-area: foto5;
+          transition: 1s; }
+          .pecho .mainindex .centro .galeria .foto5:hover {
+            transform: scale(1.1); }
           .pecho .mainindex .centro .galeria .foto5 img {
             border: #0b1f08;
             border-style: solid; }
@@ -198,16 +213,43 @@ aside .galeriaespecies {
       border: #0b1f08;
       border-style: solid; }
 
-main p {
-  font-size: 25px; }
-
-aside .accordion .accordion-item {
-  background-color: #19960cab !important; }
-  aside .accordion .accordion-item h2 button {
-    background-color: #19f800a4 !important; }
-  aside .accordion .accordion-item .collapseone .accordion-body div p {
+main {
+  border-bottom-style: solid; }
+  main p {
+    font-size: 25px;
     text-align: center;
-    font-size: 20px; }
+    margin-bottom: 0px; }
+
+.asideorigen {
+  background-color: #84df84;
+  margin-top: 0px; }
+  .asideorigen h2 {
+    text-align: center;
+    text-decoration: underline; }
+  .asideorigen h3 {
+    text-align: center;
+    text-shadow: -8px 8px 7px rgba(1, 123, 44, 0.7); }
+  .asideorigen .origenimgp {
+    display: flex;
+    justify-content: space-around; }
+    .asideorigen .origenimgp img {
+      margin: 25px;
+      transition: 1s;
+      filter: blur(5px);
+      -webkit-filter: blur(5px);
+      -moz-filter: blur(5px);
+      border: #0b1f08;
+      border-style: solid;
+      margin-bottom: 20px;
+      box-shadow: -18px 19px 30px 0px rgba(5, 107, 3, 0.76);
+      -webkit-box-shadow: -18px 19px 30px 0px rgba(5, 107, 3, 0.76);
+      -moz-box-shadow: -18px 19px 30px 0px rgba(5, 107, 3, 0.76); }
+      .asideorigen .origenimgp img:hover {
+        transform: scale(1.1);
+        filter: none; }
+    .asideorigen .origenimgp p {
+      font-size: 26px;
+      text-align: center; }
 
 main {
   background-color: #19960cab; }
@@ -494,14 +536,18 @@ footer {
       list-style-type: none;
       align-items: center; }
       footer .footerlist ul li a {
+        margin: 10px;
         color: black;
         padding: 15px;
         text-decoration: none;
         font-family: Quicksand, sans-serif;
         font-size: 20px; }
         footer .footerlist ul li a:hover {
+          border-radius: 20px;
+          border: #0b1f08;
+          border-style: solid;
           background-color: #003800;
-          color: black;
+          color: white;
           font-family: Quicksand, sans-serif; }
   footer .footerimg {
     grid-area: footerimg;
@@ -534,7 +580,10 @@ footer {
     display: flex;
     flex-direction: column; }
   .carousel-inner {
-    width: 800px; } }
+    width: 800px; }
+  .asideorigen .origenimgp img {
+    width: 300px;
+    height: auto; } }
 
 @media screen and (max-width: 1270px) {
   .cultivofoto img {
@@ -557,7 +606,7 @@ footer {
     width: 625px;
     height: auto; }
   .foto1 img {
-    width: auto;
+    width: 300px;
     height: 425px; }
   .linklista {
     color: black;
@@ -577,7 +626,12 @@ footer {
     flex-direction: column; }
   main .parte3cul .imghojas {
     display: flex;
-    justify-content: center; } }
+    justify-content: center; }
+  .asideorigen .origenimgp {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; } }
 
 @media screen and (max-width: 1120px) {
   .tarjetas .tarjetascompra1 {
@@ -640,6 +694,11 @@ footer {
   .foto4 img {
     width: 500px;
     height: auto; } }
+
+@media screen and (max-width: 790px) {
+  .foot {
+    display: flex;
+    flex-direction: column; } }
 
 @media screen and (max-width: 690px) {
   .foot {
@@ -757,4 +816,5 @@ footer {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: Quicksand, sans-serif; }
+  font-family: Quicksand, sans-serif;
+  cursor: grab; }

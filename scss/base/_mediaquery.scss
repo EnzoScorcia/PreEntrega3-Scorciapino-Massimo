@@ -22,6 +22,11 @@
     .carousel-inner {
         width: 800px;
     }
+
+    .asideorigen .origenimgp img{
+        width: 300px;
+        height: auto;
+    }
 }
 
 @media screen and (max-width: 1270px) {
@@ -57,7 +62,7 @@ main .cultivo3 .textocultivo{
     }
 
     .foto1 img {
-        width: auto;
+        width: 300px;
         height: 425px;
     }
 
@@ -89,6 +94,14 @@ main .cultivo3 .textocultivo{
     main .parte3cul .imghojas{
         display: flex;
         justify-content: center;
+    }
+
+
+    .asideorigen .origenimgp{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
     }
 }
 
@@ -186,6 +199,13 @@ main .cultivo3 .textocultivo{
     .foto4 img {
         width: 500px;
         height: auto;
+    }
+}
+
+@media screen and (max-width: 790px) {
+    .foot {
+        display: flex;
+        flex-direction: column;
     }
 }
 
