@@ -6,7 +6,8 @@
     background-size: cover;
     background-repeat: no-repeat;
     height: 100vh;
-    h1{
+
+    h1 {
         text-decoration: underline;
     }
 
@@ -15,6 +16,7 @@
         padding: 0 5px;
         text-decoration: none;
         transition: 1s;
+
         &:hover {
             background-color: #003800;
             color: rgb(255, 255, 255);
@@ -356,172 +358,314 @@ main {
     background-color: #19960cab;
 
     .titulo {
-        h1 { 
+        h1 {
             text-decoration: underline;
             text-align: center;
         }
     }
-    
-.imgcarrito{
-    display: flex;
-    justify-content: end;
-    .carrito{
-        margin-right: 2px;
-        border: #0b1f08 solid 2px;
-        border-radius: 2px;
-        background-image: url(../img/Carrito.png);
-        background-repeat: no-repeat;
-        background-size: cover;
-        width: 40px;
-        height: 40px;
-            }
-    }
-div{
-    .tarjetascompra1 {
+
+    .imgcarrito {
         display: flex;
-        flex-direction: row;
-        justify-content: center;
+        justify-content: end;
 
-        .tarjeta1,
-        .tarjeta2,
-        .tarjeta3 {
-            display: flex;
-            flex-direction: column;
-            background-color: #84df84;
-            padding: 15px;
+        .carrito {
+            margin-right: 2px;
             border: #0b1f08 solid 2px;
-            margin: 25px;
-            transition: 1s;
-            &:hover{
-                transform:scale(1.1);
-            }
-            img {
-                border: #0b1f08 solid 2px
-            }
-
-            div {
-                display: flex;
-                flex-direction: row;
-                a {
-                    text-align: center;
-                    text-decoration: none;
-                    font-size: 25px;
-                    margin-top: 6px;
-                    width: 150px;
-
-                    &:hover {
-                        border: #0b1f08 solid 2px;
-                        border-radius: 60px;
-                        margin-top: 2px;
-                    }
-                }
-            }
-
-            h4 {
-                text-align: center;
-            }
+            border-radius: 2px;
+            background-image: url(../img/Carrito.png);
+            background-repeat: no-repeat;
+            background-size: cover;
+            width: 40px;
+            height: 40px;
         }
     }
 
-    .tarjetascompra2 {
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-
-        .tarjeta4,
-        .tarjeta5,
-        .tarjeta6 {
+    div {
+        .tarjetascompra1 {
             display: flex;
-            flex-direction: column;
-            background-color: #84df84;
-            padding: 15px;
-            border: #0b1f08 solid 2px;
-            margin: 25px;
-            transition: 1s;
-            &:hover{
-                transform:scale(1.1);
-            }
-            img {
-                border: #0b1f08 solid 2px
-            }
+            flex-direction: row;
+            justify-content: center;
 
-            div {
+            .tarjeta1,
+            .tarjeta2,
+            .tarjeta3 {
                 display: flex;
-                flex-direction: row;
-                a {
-                    text-align: center;
-                    text-decoration: none;
-                    font-size: 25px;
-                    margin-top: 6px;
-                    width: 150px;
+                flex-direction: column;
+                background-color: #84df84;
+                padding: 15px;
+                border: #0b1f08 solid 2px;
+                margin: 25px;
+                transition: 1s;
 
-                    &:hover {
-                        border: #0b1f08 solid 2px;
-                        border-radius: 60px;
-                        margin-top: 2px;
+                &:hover {
+                    transform: scale(1.1);
+                }
+
+                img {
+                    border: #0b1f08 solid 2px
+                }
+
+                div {
+                    display: flex;
+                    flex-direction: row;
+
+                    a {
+                        text-align: center;
+                        text-decoration: none;
+                        font-size: 25px;
+                        margin-top: 6px;
+                        width: 150px;
+
+                        &:hover {
+                            border: #0b1f08 solid 2px;
+                            border-radius: 60px;
+                            margin-top: 2px;
+                        }
                     }
                 }
-            }
 
-            h4 {
-                text-align: center;
+                h4 {
+                    text-align: center;
+                }
             }
         }
-    }
 
-    .tarjetascompra3 {
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-
-        .tarjeta7,
-        .tarjeta8,
-        .tarjeta9 {
+        .tarjetascompra2 {
             display: flex;
-            flex-direction: column;
-            background-color: #84df84;
-            padding: 15px;
-            border: #0b1f08 solid 2px;
-            margin: 25px;
-            transition: 1s;
-            &:hover{
-                transform:scale(1.1);
-            }
-            img {
-                border: #0b1f08 solid 2px
-            }
+            flex-direction: row;
+            justify-content: center;
 
-            div {
+            .tarjeta4,
+            .tarjeta5,
+            .tarjeta6 {
                 display: flex;
-                flex-direction: row;
-                a {
-                    text-align: center;
-                    text-decoration: none;
-                    font-size: 25px;
-                    margin-top: 6px;
-                    width: 150px;
+                flex-direction: column;
+                background-color: #84df84;
+                padding: 15px;
+                border: #0b1f08 solid 2px;
+                margin: 25px;
+                transition: 1s;
 
-                    &:hover {
-                        border: #0b1f08 solid 2px;
-                        border-radius: 60px;
-                        margin-top: 2px;
+                &:hover {
+                    transform: scale(1.1);
+                }
+
+                img {
+                    border: #0b1f08 solid 2px
+                }
+
+                div {
+                    display: flex;
+                    flex-direction: row;
+
+                    a {
+                        text-align: center;
+                        text-decoration: none;
+                        font-size: 25px;
+                        margin-top: 6px;
+                        width: 150px;
+
+                        &:hover {
+                            border: #0b1f08 solid 2px;
+                            border-radius: 60px;
+                            margin-top: 2px;
+                        }
                     }
                 }
-            }
 
-            h4 {
-                text-align: center;
+                h4 {
+                    text-align: center;
+                }
+            }
+        }
+
+        .tarjetascompra3 {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+
+            .tarjeta7,
+            .tarjeta8,
+            .tarjeta9 {
+                display: flex;
+                flex-direction: column;
+                background-color: #84df84;
+                padding: 15px;
+                border: #0b1f08 solid 2px;
+                margin: 25px;
+                transition: 1s;
+
+                &:hover {
+                    transform: scale(1.1);
+                }
+
+                img {
+                    border: #0b1f08 solid 2px
+                }
+
+                div {
+                    display: flex;
+                    flex-direction: row;
+
+                    a {
+                        text-align: center;
+                        text-decoration: none;
+                        font-size: 25px;
+                        margin-top: 6px;
+                        width: 150px;
+
+                        &:hover {
+                            border: #0b1f08 solid 2px;
+                            border-radius: 60px;
+                            margin-top: 2px;
+                        }
+                    }
+                }
+
+                h4 {
+                    text-align: center;
+                }
             }
         }
     }
 }
-}
 
-//!------CARRITO
+//!------CULTIVO
 
-main .proximamente{
-    text-align: center;
-    height: 100vh;
-    text-decoration:underline;
-    font-size: 100px;
+main {
+    h1 {
+        text-align: center;
+        text-decoration: underline;
+    }
+
+    div {
+        .parrafo1 {
+            text-align: center;
+        }
+
+        .parimg {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+
+            h3 {
+                text-decoration: underline;
+                text-shadow: 4px 4px 2px rgba(39, 95, 20, 0.6);
+                text-align: center;
+            }
+
+            .parrafo2 {
+                font-size: 25px;
+                text-align: center;
+            }
+        }
+    }
+
+    .cultivofoto {
+        display: grid;
+        grid-template-columns: 35% 65%;
+        grid-template-rows: 1fr;
+        gap: 0px 0px;
+        grid-template-areas:
+            "cultivofoto1 cultivotexto";
+
+        img {
+            margin-left: 5px;
+            margin-top: 5px;
+            border-color: #0b1f08;
+            border-style: solid;
+        }
+
+        .cultivotexto {
+            h3 {
+                text-decoration: underline;
+                text-shadow: 4px 4px 2px rgba(39, 95, 20, 0.6);
+                text-align: center;
+            }
+
+            p {
+                font-size: 25px;
+                text-align: center;
+            }
+        }
+    }
+
+    .cultivo2 {
+        h2 {
+            text-decoration: underline;
+            text-shadow: 4px 4px 2px rgba(39, 95, 20, 0.6);
+            text-align: center;
+        }
+
+        p {
+            font-size: 25px;
+            text-align: center;
+        }
+    }
+
+    .parte3cul {
+        display: grid;
+        grid-template-columns: 60% 40%;
+        grid-template-rows: 1fr;
+        gap: 0px 0px;
+        grid-auto-flow: row;
+        grid-template-areas:
+            "hojastexto imghojas";
+
+        .hojastexto {
+            h3 {
+                text-decoration: underline;
+                text-shadow: 4px 4px 2px rgba(39, 95, 20, 0.6);
+                text-align: center;
+            }
+
+            p {
+                text-align: center;
+            }
+
+            .h3podado {
+                text-decoration: underline;
+                text-shadow: 4px 4px 2px rgba(39, 95, 20, 0.6);
+                text-align: center;
+            }
+
+            p {
+                font-size: x-large;
+
+            }
+        }
+
+        .imghojas {
+            img {
+                margin-left: 5px;
+                margin-top: 5px;
+                border-color: #0b1f08;
+                border-style: solid;
+            }
+        }
+    }
+
+    .cultivo3 {display: flex;
+        justify-content:center;
+        img {            
+            margin: 5px;
+            border-color: #0b1f08;
+            border-style: solid;}
+        .textocultivo{width: 800px;
+            h2 {                
+                text-decoration: underline;
+                text-shadow: 4px 4px 2px rgba(39, 95, 20, 0.6);
+                text-align: center;
+            }
+
+            p {text-align: center;}
+
+
+            h3 {                
+                text-decoration: underline;
+                text-shadow: 4px 4px 2px rgba(39, 95, 20, 0.6);
+                text-align: center;
+            }
+        }
+    }
 }

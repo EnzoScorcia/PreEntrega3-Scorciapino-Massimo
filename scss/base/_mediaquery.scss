@@ -1,3 +1,18 @@
+@media screen and (max-width: 1490px) {
+    .imghojas img {
+        height: 600px;
+        width: auto;
+    }
+    main .cultivo3 img{
+        width: 600px;
+        height: auto;
+    }
+    main .cultivofoto img{
+        width: 400px;
+        height: auto;
+    }
+}
+
 @media screen and (max-width: 1375px) {
     .carouselbox {
         display: flex;
@@ -9,8 +24,29 @@
     }
 }
 
+@media screen and (max-width: 1270px) {
+.cultivofoto img{
+    width: 350px;
+    height: auto;
+}
+
+main .cultivo3{
+    display: flex;
+    flex-direction: column;
+}
+
+main .cultivo3 .cultivo3img {
+    display: flex;
+    justify-content: center;
+}
+
+main .cultivo3 .textocultivo{
+    width: 100%;
+}
+}
+
 @media screen and (max-width: 1200px) {
-    .pecho .mainindex .centro .galeria{
+    .pecho .mainindex .centro .galeria {
         display: flex;
         flex-direction: column;
     }
@@ -29,6 +65,30 @@
         color: black;
         padding: 0 5px;
         text-decoration: none;
+    }
+
+    .imghojas img {
+        height: 500px;
+        width: auto;
+    }
+
+    main .cultivofoto {
+        display: flex;
+        flex-direction: column;
+    }
+    main .cultivofoto .cultivofoto1{
+        display: flex;
+        justify-content: center;
+    }
+
+    main .parte3cul{
+        display: flex;
+        flex-direction: column;
+    }
+
+    main .parte3cul .imghojas{
+        display: flex;
+        justify-content: center;
     }
 }
 
@@ -53,12 +113,12 @@
 }
 
 @media screen and (max-width:1050px) {
-    
+
     .pecho aside .form div input {
         width: 150px;
     }
 
-    aside .galeriaespecies{
+    aside .galeriaespecies {
         display: flex;
         flex-direction: column;
     }
@@ -72,7 +132,7 @@
 }
 
 @media screen and (max-width:900px) {
-    
+
     .pecho aside .form div input {
         width: 100px;
     }
@@ -88,7 +148,7 @@
         font-size: x-large;
     }
 
-    main .carouselbox .tallo1  {
+    main .carouselbox .tallo1 {
         width: 600px;
     }
 }
@@ -146,8 +206,8 @@
         width: 400px;
         height: auto;
     }
-    
-    main .carouselbox .tallo1  {
+
+    main .carouselbox .tallo1 {
         width: 400px;
     }
 }
@@ -180,8 +240,14 @@
         display: flex;
         flex-direction: column;
     }
-    .footerlist ul li{
+
+    .footerlist ul li {
         margin: 5px;
+    }
+
+    main .cultivo3 .cultivo3img img {
+        width: 400px;
+        height: auto;
     }
 }
 
@@ -216,8 +282,23 @@
         height: 200px !important;
     }
 
-    main .carouselbox .tallo1  {
+    main .carouselbox .tallo1 {
         width: 250px;
+    }
+
+    main .cultivo3 .cultivo3img img {
+        width: 300px;
+        height: auto;
+    }
+
+    .imghojas img {
+        height: 300px;
+        width: auto;
+    }
+
+    main .cultivofoto img {
+        width: 300px;
+        height: auto;
     }
 }
 
@@ -225,7 +306,8 @@
     .footerlist ul li a {
         font-size: medium;
     }
-    .pecho .mainindex .centro .somos img{
+
+    .pecho .mainindex .centro .somos img {
         width: 300px;
     }
 }
@@ -236,15 +318,15 @@
     }
 
     .tarjetas .tarjetascompra1 .tarjeta1 {
-        margin: 0px;
+        margin: 5px;
     }
 
     .tarjetas .tarjetascompra1 .tarjeta2 {
-        margin: 0px;
+        margin: 5px;
     }
 
     .tarjetas .tarjetascompra1 .tarjeta3 {
-        margin: 0px;
+        margin: 5px;
     }
 
     .tarjetas .tarjetascompra1 img {
@@ -262,15 +344,15 @@
     }
 
     .tarjetas .tarjetascompra2 .tarjeta4 {
-        margin: 0px;
+        margin: 5px;
     }
 
     .tarjetas .tarjetascompra2 .tarjeta5 {
-        margin: 0px;
+        margin: 5px;
     }
 
     .tarjetas .tarjetascompra2 .tarjeta6 {
-        margin: 0px;
+        margin: 5px;
     }
 
     .tarjetas .tarjetascompra3 {
@@ -283,14 +365,14 @@
     }
 
     .tarjetas .tarjetascompra3 .tarjeta7 {
-        margin: 0px;
+        margin: 5px;
     }
 
     .tarjetas .tarjetascompra3 .tarjeta8 {
-        margin: 0px;
+        margin: 5px;
     }
 
     .tarjetas .tarjetascompra3 .tarjeta9 {
-        margin: 0px;
+        margin: 5px;
     }
 }

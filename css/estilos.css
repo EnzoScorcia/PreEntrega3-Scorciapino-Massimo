@@ -362,11 +362,97 @@ main {
       main div .tarjetascompra3 .tarjeta9 h4 {
         text-align: center; }
 
-main .proximamente {
+main h1 {
   text-align: center;
-  height: 100vh;
+  text-decoration: underline; }
+
+main div .parrafo1 {
+  text-align: center; }
+
+main div .parimg {
+  display: flex;
+  flex-direction: column;
+  justify-content: center; }
+  main div .parimg h3 {
+    text-decoration: underline;
+    text-shadow: 4px 4px 2px rgba(39, 95, 20, 0.6);
+    text-align: center; }
+  main div .parimg .parrafo2 {
+    font-size: 25px;
+    text-align: center; }
+
+main .cultivofoto {
+  display: grid;
+  grid-template-columns: 35% 65%;
+  grid-template-rows: 1fr;
+  gap: 0px 0px;
+  grid-template-areas: "cultivofoto1 cultivotexto"; }
+  main .cultivofoto img {
+    margin-left: 5px;
+    margin-top: 5px;
+    border-color: #0b1f08;
+    border-style: solid; }
+  main .cultivofoto .cultivotexto h3 {
+    text-decoration: underline;
+    text-shadow: 4px 4px 2px rgba(39, 95, 20, 0.6);
+    text-align: center; }
+  main .cultivofoto .cultivotexto p {
+    font-size: 25px;
+    text-align: center; }
+
+main .cultivo2 h2 {
   text-decoration: underline;
-  font-size: 100px; }
+  text-shadow: 4px 4px 2px rgba(39, 95, 20, 0.6);
+  text-align: center; }
+
+main .cultivo2 p {
+  font-size: 25px;
+  text-align: center; }
+
+main .parte3cul {
+  display: grid;
+  grid-template-columns: 60% 40%;
+  grid-template-rows: 1fr;
+  gap: 0px 0px;
+  grid-auto-flow: row;
+  grid-template-areas: "hojastexto imghojas"; }
+  main .parte3cul .hojastexto h3 {
+    text-decoration: underline;
+    text-shadow: 4px 4px 2px rgba(39, 95, 20, 0.6);
+    text-align: center; }
+  main .parte3cul .hojastexto p {
+    text-align: center; }
+  main .parte3cul .hojastexto .h3podado {
+    text-decoration: underline;
+    text-shadow: 4px 4px 2px rgba(39, 95, 20, 0.6);
+    text-align: center; }
+  main .parte3cul .hojastexto p {
+    font-size: x-large; }
+  main .parte3cul .imghojas img {
+    margin-left: 5px;
+    margin-top: 5px;
+    border-color: #0b1f08;
+    border-style: solid; }
+
+main .cultivo3 {
+  display: flex;
+  justify-content: center; }
+  main .cultivo3 img {
+    margin: 5px;
+    border-color: #0b1f08;
+    border-style: solid; }
+  main .cultivo3 .textocultivo {
+    width: 800px; }
+    main .cultivo3 .textocultivo h2 {
+      text-decoration: underline;
+      text-shadow: 4px 4px 2px rgba(39, 95, 20, 0.6);
+      text-align: center; }
+    main .cultivo3 .textocultivo p {
+      text-align: center; }
+    main .cultivo3 .textocultivo h3 {
+      text-decoration: underline;
+      text-shadow: 4px 4px 2px rgba(39, 95, 20, 0.6);
+      text-align: center; }
 
 header {
   background-color: #1a8014;
@@ -432,12 +518,36 @@ footer {
     grid-area: footerp;
     text-align: center; }
 
+@media screen and (max-width: 1490px) {
+  .imghojas img {
+    height: 600px;
+    width: auto; }
+  main .cultivo3 img {
+    width: 600px;
+    height: auto; }
+  main .cultivofoto img {
+    width: 400px;
+    height: auto; } }
+
 @media screen and (max-width: 1375px) {
   .carouselbox {
     display: flex;
     flex-direction: column; }
   .carousel-inner {
     width: 800px; } }
+
+@media screen and (max-width: 1270px) {
+  .cultivofoto img {
+    width: 350px;
+    height: auto; }
+  main .cultivo3 {
+    display: flex;
+    flex-direction: column; }
+  main .cultivo3 .cultivo3img {
+    display: flex;
+    justify-content: center; }
+  main .cultivo3 .textocultivo {
+    width: 100%; } }
 
 @media screen and (max-width: 1200px) {
   .pecho .mainindex .centro .galeria {
@@ -452,7 +562,22 @@ footer {
   .linklista {
     color: black;
     padding: 0 5px;
-    text-decoration: none; } }
+    text-decoration: none; }
+  .imghojas img {
+    height: 500px;
+    width: auto; }
+  main .cultivofoto {
+    display: flex;
+    flex-direction: column; }
+  main .cultivofoto .cultivofoto1 {
+    display: flex;
+    justify-content: center; }
+  main .parte3cul {
+    display: flex;
+    flex-direction: column; }
+  main .parte3cul .imghojas {
+    display: flex;
+    justify-content: center; } }
 
 @media screen and (max-width: 1120px) {
   .tarjetas .tarjetascompra1 {
@@ -551,7 +676,10 @@ footer {
     display: flex;
     flex-direction: column; }
   .footerlist ul li {
-    margin: 5px; } }
+    margin: 5px; }
+  main .cultivo3 .cultivo3img img {
+    width: 400px;
+    height: auto; } }
 
 @media screen and (max-width: 439px) {
   .especie1 img {
@@ -573,7 +701,16 @@ footer {
     width: 300px !important;
     height: 200px !important; }
   main .carouselbox .tallo1 {
-    width: 250px; } }
+    width: 250px; }
+  main .cultivo3 .cultivo3img img {
+    width: 300px;
+    height: auto; }
+  .imghojas img {
+    height: 300px;
+    width: auto; }
+  main .cultivofoto img {
+    width: 300px;
+    height: auto; } }
 
 @media screen and (max-width: 382px) {
   .footerlist ul li a {
@@ -585,11 +722,11 @@ footer {
   .tarjetas .tarjetascompra1 {
     width: 300px; }
   .tarjetas .tarjetascompra1 .tarjeta1 {
-    margin: 0px; }
+    margin: 5px; }
   .tarjetas .tarjetascompra1 .tarjeta2 {
-    margin: 0px; }
+    margin: 5px; }
   .tarjetas .tarjetascompra1 .tarjeta3 {
-    margin: 0px; }
+    margin: 5px; }
   .tarjetas .tarjetascompra1 img {
     width: 250px;
     height: auto; }
@@ -599,22 +736,22 @@ footer {
     width: 250px;
     height: auto; }
   .tarjetas .tarjetascompra2 .tarjeta4 {
-    margin: 0px; }
+    margin: 5px; }
   .tarjetas .tarjetascompra2 .tarjeta5 {
-    margin: 0px; }
+    margin: 5px; }
   .tarjetas .tarjetascompra2 .tarjeta6 {
-    margin: 0px; }
+    margin: 5px; }
   .tarjetas .tarjetascompra3 {
     width: 300px; }
   .tarjetas .tarjetascompra3 img {
     width: 250px;
     height: auto; }
   .tarjetas .tarjetascompra3 .tarjeta7 {
-    margin: 0px; }
+    margin: 5px; }
   .tarjetas .tarjetascompra3 .tarjeta8 {
-    margin: 0px; }
+    margin: 5px; }
   .tarjetas .tarjetascompra3 .tarjeta9 {
-    margin: 0px; } }
+    margin: 5px; } }
 
 * {
   margin: 0;
