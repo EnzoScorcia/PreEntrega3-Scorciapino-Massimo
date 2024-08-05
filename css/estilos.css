@@ -69,7 +69,8 @@
           grid-area: foto1;
           transition: 1s; }
           .pecho .mainindex .centro .galeria .foto1:hover {
-            transform: scale(1.1); }
+            transform: scale(1.1);
+            cursor: grab; }
           .pecho .mainindex .centro .galeria .foto1 img {
             border: #0b1f08;
             border-style: solid; }
@@ -77,7 +78,8 @@
           grid-area: foto2;
           transition: 1s; }
           .pecho .mainindex .centro .galeria .foto2:hover {
-            transform: scale(1.1); }
+            transform: scale(1.1);
+            cursor: grab; }
           .pecho .mainindex .centro .galeria .foto2 img {
             border: #0b1f08;
             border-style: solid; }
@@ -85,7 +87,8 @@
           grid-area: foto3;
           transition: 1s; }
           .pecho .mainindex .centro .galeria .foto3:hover {
-            transform: scale(1.1); }
+            transform: scale(1.1);
+            cursor: grab; }
           .pecho .mainindex .centro .galeria .foto3 img {
             border: #0b1f08;
             border-style: solid; }
@@ -93,7 +96,8 @@
           grid-area: foto4;
           transition: 1s; }
           .pecho .mainindex .centro .galeria .foto4:hover {
-            transform: scale(1.1); }
+            transform: scale(1.1);
+            cursor: grab; }
           .pecho .mainindex .centro .galeria .foto4 img {
             border: #0b1f08;
             border-style: solid; }
@@ -101,7 +105,8 @@
           grid-area: foto5;
           transition: 1s; }
           .pecho .mainindex .centro .galeria .foto5:hover {
-            transform: scale(1.1); }
+            transform: scale(1.1);
+            cursor: grab; }
           .pecho .mainindex .centro .galeria .foto5 img {
             border: #0b1f08;
             border-style: solid; }
@@ -118,15 +123,22 @@
       text-decoration: underline;
       padding-bottom: 25px; }
     .pecho aside .nombre {
-      padding-left: 25px; }
+      padding-left: 25px;
+      margin: 20px; }
     .pecho aside .email {
-      padding-left: 25px; }
-    .pecho aside contrasena {
-      padding-left: 25px; }
+      padding-left: 25px;
+      margin: 12px; }
+    .pecho aside .contrasena {
+      padding-left: 25px;
+      margin: 20px; }
     .pecho aside .genero {
-      padding-left: 25px; }
+      padding-left: 25px;
+      display: flex;
+      justify-content: center;
+      align-items: center; }
     .pecho aside .datos {
-      padding-top: 25px; }
+      padding-top: 25px;
+      margin: 20px; }
       .pecho aside .datos h4 {
         text-align: center;
         text-decoration: underline; }
@@ -134,7 +146,8 @@
         padding-top: 5px;
         text-align: center; }
       .pecho aside .datos span {
-        padding-top: 25px; }
+        padding-top: 25px;
+        margin-top: 25px; }
 
 /*--ESPECIES--*/
 div .especiesh1 {
@@ -151,13 +164,16 @@ main .carouselbox {
   border-style: solid;
   padding: 25px; }
 
-main .carouselexample .carousel-inner {
-  width: 100px !important;
-  height: auto !important; }
+main .carouselexample {
+  margin: 15px !important; }
+  main .carouselexample .carousel-inner {
+    width: 100px !important;
+    height: auto !important; }
 
 main .tallo1 {
   text-align: center;
-  width: 800px; }
+  width: 800px;
+  margin: 15px; }
   main .tallo1 .tallo {
     text-decoration: underline;
     text-align: center;
@@ -218,7 +234,9 @@ main {
   main p {
     font-size: 25px;
     text-align: center;
-    margin-bottom: 0px; }
+    margin-bottom: 15px;
+    margin-left: 15px;
+    margin-right: 15px; }
 
 .asideorigen {
   background-color: #84df84;
@@ -246,7 +264,8 @@ main {
       -moz-box-shadow: -18px 19px 30px 0px rgba(5, 107, 3, 0.76); }
       .asideorigen .origenimgp img:hover {
         transform: scale(1.1);
-        filter: none; }
+        filter: none;
+        cursor: grab; }
     .asideorigen .origenimgp p {
       font-size: 26px;
       text-align: center; }
@@ -285,7 +304,8 @@ main {
       main div .tarjetascompra1 .tarjeta1:hover,
       main div .tarjetascompra1 .tarjeta2:hover,
       main div .tarjetascompra1 .tarjeta3:hover {
-        transform: scale(1.1); }
+        transform: scale(1.1);
+        cursor: grab; }
       main div .tarjetascompra1 .tarjeta1 img,
       main div .tarjetascompra1 .tarjeta2 img,
       main div .tarjetascompra1 .tarjeta3 img {
@@ -302,13 +322,16 @@ main {
           text-decoration: none;
           font-size: 25px;
           margin-top: 6px;
-          width: 150px; }
+          width: 150px;
+          color: black; }
           main div .tarjetascompra1 .tarjeta1 div a:hover,
           main div .tarjetascompra1 .tarjeta2 div a:hover,
           main div .tarjetascompra1 .tarjeta3 div a:hover {
             border: #0b1f08 solid 2px;
             border-radius: 60px;
-            margin-top: 2px; }
+            margin-top: 2px;
+            background-color: black;
+            color: white; }
       main div .tarjetascompra1 .tarjeta1 h4,
       main div .tarjetascompra1 .tarjeta2 h4,
       main div .tarjetascompra1 .tarjeta3 h4 {
@@ -326,11 +349,13 @@ main {
       padding: 15px;
       border: #0b1f08 solid 2px;
       margin: 25px;
-      transition: 1s; }
+      transition: 1s;
+      color: black; }
       main div .tarjetascompra2 .tarjeta4:hover,
       main div .tarjetascompra2 .tarjeta5:hover,
       main div .tarjetascompra2 .tarjeta6:hover {
-        transform: scale(1.1); }
+        transform: scale(1.1);
+        cursor: grab; }
       main div .tarjetascompra2 .tarjeta4 img,
       main div .tarjetascompra2 .tarjeta5 img,
       main div .tarjetascompra2 .tarjeta6 img {
@@ -347,13 +372,16 @@ main {
           text-decoration: none;
           font-size: 25px;
           margin-top: 6px;
-          width: 150px; }
+          width: 150px;
+          color: black; }
           main div .tarjetascompra2 .tarjeta4 div a:hover,
           main div .tarjetascompra2 .tarjeta5 div a:hover,
           main div .tarjetascompra2 .tarjeta6 div a:hover {
             border: #0b1f08 solid 2px;
             border-radius: 60px;
-            margin-top: 2px; }
+            margin-top: 2px;
+            background-color: black;
+            color: white; }
       main div .tarjetascompra2 .tarjeta4 h4,
       main div .tarjetascompra2 .tarjeta5 h4,
       main div .tarjetascompra2 .tarjeta6 h4 {
@@ -375,7 +403,8 @@ main {
       main div .tarjetascompra3 .tarjeta7:hover,
       main div .tarjetascompra3 .tarjeta8:hover,
       main div .tarjetascompra3 .tarjeta9:hover {
-        transform: scale(1.1); }
+        transform: scale(1.1);
+        cursor: grab; }
       main div .tarjetascompra3 .tarjeta7 img,
       main div .tarjetascompra3 .tarjeta8 img,
       main div .tarjetascompra3 .tarjeta9 img {
@@ -392,13 +421,16 @@ main {
           text-decoration: none;
           font-size: 25px;
           margin-top: 6px;
-          width: 150px; }
+          width: 150px;
+          color: black; }
           main div .tarjetascompra3 .tarjeta7 div a:hover,
           main div .tarjetascompra3 .tarjeta8 div a:hover,
           main div .tarjetascompra3 .tarjeta9 div a:hover {
             border: #0b1f08 solid 2px;
             border-radius: 60px;
-            margin-top: 2px; }
+            margin-top: 2px;
+            background-color: black;
+            color: white; }
       main div .tarjetascompra3 .tarjeta7 h4,
       main div .tarjetascompra3 .tarjeta8 h4,
       main div .tarjetascompra3 .tarjeta9 h4 {
@@ -816,5 +848,4 @@ footer {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: Quicksand, sans-serif;
-  cursor: grab; }
+  font-family: Quicksand, sans-serif; }

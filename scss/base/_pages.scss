@@ -100,6 +100,7 @@
 
                     &:hover {
                         transform: scale(1.1);
+                        cursor: grab;
                     }
                     img {
                         border: #0b1f08;
@@ -113,6 +114,7 @@
 
                     &:hover {
                         transform: scale(1.1);
+                        cursor: grab;
                     }
                     img {
                         border: #0b1f08;
@@ -126,6 +128,7 @@
 
                     &:hover {
                         transform: scale(1.1);
+                        cursor: grab;
                     }
                     img {
                         border: #0b1f08;
@@ -139,6 +142,7 @@
 
                     &:hover {
                         transform: scale(1.1);
+                        cursor: grab;
                     }
                     img {
                         border: #0b1f08;
@@ -152,6 +156,7 @@
 
                     &:hover {
                         transform: scale(1.1);
+                        cursor: grab;
                     }
                     img {
                         border: #0b1f08;
@@ -179,23 +184,29 @@
 
         .nombre {
             padding-left: 25px;
+            margin: 20px;
         }
 
         .email {
             padding-left: 25px;
+            margin: 12px;
         }
 
-        contrasena {
+        .contrasena {
             padding-left: 25px;
+            margin: 20px;
         }
 
         .genero {
             padding-left: 25px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
         }
 
         .datos {
             padding-top: 25px;
-
+            margin: 20px;
             h4 {
                 text-align: center;
                 text-decoration: underline;
@@ -208,6 +219,7 @@
 
             span {
                 padding-top: 25px;
+                margin-top: 25px;
             }
         }
     }
@@ -237,7 +249,7 @@ main {
         padding: 25px;
     }
 
-    .carouselexample {
+    .carouselexample {margin: 15px !important;
         .carousel-inner {
             width: 100px !important;
             height: auto !important;
@@ -247,7 +259,7 @@ main {
     .tallo1 {
         text-align: center;
         width: 800px;
-
+        margin: 15px;
         .tallo {
             text-decoration: underline;
             text-align: center;
@@ -345,7 +357,9 @@ main {
     p {
         font-size: 25px;
         text-align: center;
-        margin-bottom: 0px;
+        margin-bottom: 15px;
+        margin-left: 15px;
+        margin-right: 15px;
     }
 }
 
@@ -373,6 +387,7 @@ main {
                     &:hover {
                         transform: scale(1.1);
                         filter: none;
+                        cursor: grab;
                     }
             border: #0b1f08;
             border-style: solid;
@@ -435,6 +450,7 @@ main {
 
                 &:hover {
                     transform: scale(1.1);
+                    cursor: grab;
                 }
 
                 img {
@@ -451,11 +467,13 @@ main {
                         font-size: 25px;
                         margin-top: 6px;
                         width: 150px;
-
+                        color: black;
                         &:hover {
                             border: #0b1f08 solid 2px;
                             border-radius: 60px;
                             margin-top: 2px;
+                            background-color: black;
+                            color: white;
                         }
                     }
                 }
@@ -481,9 +499,10 @@ main {
                 border: #0b1f08 solid 2px;
                 margin: 25px;
                 transition: 1s;
-
+                color: black;
                 &:hover {
                     transform: scale(1.1);
+                    cursor: grab;
                 }
 
                 img {
@@ -500,11 +519,13 @@ main {
                         font-size: 25px;
                         margin-top: 6px;
                         width: 150px;
-
+                        color: black;
                         &:hover {
                             border: #0b1f08 solid 2px;
                             border-radius: 60px;
                             margin-top: 2px;
+                            background-color: black;
+                            color: white;
                         }
                     }
                 }
@@ -533,6 +554,7 @@ main {
 
                 &:hover {
                     transform: scale(1.1);
+                    cursor: grab;
                 }
 
                 img {
@@ -549,11 +571,13 @@ main {
                         font-size: 25px;
                         margin-top: 6px;
                         width: 150px;
-
+                        color: black;
                         &:hover {
                             border: #0b1f08 solid 2px;
                             border-radius: 60px;
                             margin-top: 2px;
+                            background-color: black;
+                            color: white;
                         }
                     }
                 }
