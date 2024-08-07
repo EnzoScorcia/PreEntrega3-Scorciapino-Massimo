@@ -5,6 +5,21 @@
 
 //! VARIABLES
 
+$colorfondo: #19960cab;
+
+@mixin tarjetacompra{
+    display: flex;
+    flex-direction: column;
+    background-color: #84df84;
+    padding: 15px;
+    border: #0b1f08 solid 2px;
+    margin: 25px;
+    transition: 1s;
+    color: black;
+    }
+    .box {
+    @include tarjetacompra;
+    }
 
 * {
     margin: 0;

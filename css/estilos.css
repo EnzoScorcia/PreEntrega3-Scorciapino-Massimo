@@ -1,3 +1,13 @@
+.box {
+  display: flex;
+  flex-direction: column;
+  background-color: #84df84;
+  padding: 15px;
+  border: #0b1f08 solid 2px;
+  margin: 25px;
+  transition: 1s;
+  color: black; }
+
 .hero {
   text-align: center;
   font-size: 25px;
@@ -300,7 +310,8 @@ main {
       padding: 15px;
       border: #0b1f08 solid 2px;
       margin: 25px;
-      transition: 1s; }
+      transition: 1s;
+      color: black; }
       main div .tarjetascompra1 .tarjeta1:hover,
       main div .tarjetascompra1 .tarjeta2:hover,
       main div .tarjetascompra1 .tarjeta3:hover {
@@ -399,7 +410,8 @@ main {
       padding: 15px;
       border: #0b1f08 solid 2px;
       margin: 25px;
-      transition: 1s; }
+      transition: 1s;
+      color: black; }
       main div .tarjetascompra3 .tarjeta7:hover,
       main div .tarjetascompra3 .tarjeta8:hover,
       main div .tarjetascompra3 .tarjeta9:hover {
@@ -843,6 +855,16 @@ footer {
     margin: 5px; }
   .tarjetas .tarjetascompra3 .tarjeta9 {
     margin: 5px; } }
+
+.box {
+  display: flex;
+  flex-direction: column;
+  background-color: #84df84;
+  padding: 15px;
+  border: #0b1f08 solid 2px;
+  margin: 25px;
+  transition: 1s;
+  color: black; }
 
 * {
   margin: 0;

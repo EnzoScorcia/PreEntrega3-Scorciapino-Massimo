@@ -1,3 +1,19 @@
+$colorfondo: #19960cab;
+
+@mixin tarjetacompra{
+    display: flex;
+    flex-direction: column;
+    background-color: #84df84;
+    padding: 15px;
+    border: #0b1f08 solid 2px;
+    margin: 25px;
+    transition: 1s;
+    color: black;
+    }
+    .box {
+    @include tarjetacompra;
+    }
+
 .hero {
     text-align: center;
     font-size: 25px;
@@ -36,7 +52,7 @@
         "main aside";
 
     .mainindex {
-        background-color: #19960cab;
+        background-color: $colorfondo;
         border-style: solid;
         border-left: #0b1f08;
         border-bottom: #0b1f08;
@@ -232,7 +248,7 @@
 div {
     .especiesh1 {
         font-size: 50px;
-        background-color: #19960cab;
+        background-color: $colorfondo;
         text-align: center;
         margin: 0px;
     }
@@ -243,7 +259,7 @@ main {
     .carouselbox {
         display: flex;
         justify-content: center;
-        background-color: #19960cab;
+        background-color: $colorfondo;
         border: #0b1f08;
         border-style: solid;
         padding: 25px;
@@ -406,7 +422,7 @@ main {
 //! Comprar
 
 main {
-    background-color: #19960cab;
+    background-color: $colorfondo;
 
     .titulo {
         h1 {
@@ -440,14 +456,7 @@ main {
             .tarjeta1,
             .tarjeta2,
             .tarjeta3 {
-                display: flex;
-                flex-direction: column;
-                background-color: #84df84;
-                padding: 15px;
-                border: #0b1f08 solid 2px;
-                margin: 25px;
-                transition: 1s;
-
+                @include tarjetacompra;
                 &:hover {
                     transform: scale(1.1);
                     cursor: grab;
@@ -492,14 +501,7 @@ main {
             .tarjeta4,
             .tarjeta5,
             .tarjeta6 {
-                display: flex;
-                flex-direction: column;
-                background-color: #84df84;
-                padding: 15px;
-                border: #0b1f08 solid 2px;
-                margin: 25px;
-                transition: 1s;
-                color: black;
+                @include tarjetacompra;
                 &:hover {
                     transform: scale(1.1);
                     cursor: grab;
@@ -544,14 +546,7 @@ main {
             .tarjeta7,
             .tarjeta8,
             .tarjeta9 {
-                display: flex;
-                flex-direction: column;
-                background-color: #84df84;
-                padding: 15px;
-                border: #0b1f08 solid 2px;
-                margin: 25px;
-                transition: 1s;
-
+                @include tarjetacompra;
                 &:hover {
                     transform: scale(1.1);
                     cursor: grab;
