@@ -55,7 +55,8 @@
         .pecho .mainindex .centro .somos div {
           width: 350px; }
           .pecho .mainindex .centro .somos div h2 {
-            font-size: 30px; }
+            font-size: 30px;
+            text-align: center; }
           .pecho .mainindex .centro .somos div p {
             font-size: 20px; }
       .pecho .mainindex .centro .muestra {
@@ -675,7 +676,13 @@ footer {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center; } }
+    align-items: center; }
+  .pecho aside .nombre {
+    margin: 10px; }
+  .pecho aside .email {
+    margin: 10px; }
+  .pecho aside .contrasena {
+    margin: 10px; } }
 
 @media screen and (max-width: 1120px) {
   .tarjetas .tarjetascompra1 {
@@ -689,12 +696,21 @@ footer {
   .tarjetas .tarjetascompra3 {
     display: flex;
     flex-direction: column;
-    width: 380px; } }
+    width: 380px; }
+  .pecho aside .nombre {
+    padding: 0px; }
+  .pecho aside .email {
+    padding: 0px; }
+  .pecho aside .contrasena {
+    padding: 0px; } }
 
 @media screen and (max-width: 1050px) {
   .pecho aside .form div input {
     width: 150px; }
   aside .galeriaespecies {
+    display: flex;
+    flex-direction: column; }
+  body .pecho {
     display: flex;
     flex-direction: column; } }
 
@@ -724,9 +740,6 @@ footer {
     height: 300px !important; } }
 
 @media screen and (max-width: 830px) {
-  main .centro .somos {
-    display: flex;
-    flex-direction: column; }
   body .pecho {
     display: flex;
     flex-direction: column; } }
@@ -741,6 +754,11 @@ footer {
 
 @media screen and (max-width: 790px) {
   .foot {
+    display: flex;
+    flex-direction: column; } }
+
+@media screen and (max-width: 710px) {
+  main .centro .somos {
     display: flex;
     flex-direction: column; } }
 

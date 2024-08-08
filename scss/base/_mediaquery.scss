@@ -103,6 +103,18 @@ main .cultivo3 .textocultivo{
         justify-content: center;
         align-items: center;
     }
+
+    .pecho aside .nombre{
+        margin: 10px;
+    }
+
+    .pecho aside .email {
+        margin: 10px;
+    }
+
+    .pecho aside .contrasena {
+        margin: 10px;
+    }
 }
 
 @media screen and (max-width:1120px) {
@@ -123,6 +135,18 @@ main .cultivo3 .textocultivo{
         flex-direction: column;
         width: 380px;
     }
+
+    .pecho aside .nombre{
+        padding: 0px;
+    }
+
+    .pecho aside .email {
+        padding: 0px;
+    }
+
+    .pecho aside .contrasena {
+        padding: 0px;
+    }
 }
 
 @media screen and (max-width:1050px) {
@@ -132,6 +156,12 @@ main .cultivo3 .textocultivo{
     }
 
     aside .galeriaespecies {
+        display: flex;
+        flex-direction: column;
+    }
+
+
+    body .pecho {
         display: flex;
         flex-direction: column;
     }
@@ -179,10 +209,6 @@ main .cultivo3 .textocultivo{
 }
 
 @media screen and (max-width: 830px) {
-    main .centro .somos {
-        display: flex;
-        flex-direction: column;
-    }
 
     body .pecho {
         display: flex;
@@ -206,6 +232,14 @@ main .cultivo3 .textocultivo{
     .foot {
         display: flex;
         flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 710px) {
+    main .centro .somos 
+    {
+    display: flex;
+    flex-direction: column;
     }
 }
 
