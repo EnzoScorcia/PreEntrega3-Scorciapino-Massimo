@@ -118,6 +118,7 @@ main .cultivo3 .textocultivo{
 }
 
 @media screen and (max-width:1120px) {
+
     .tarjetas .tarjetascompra1 {
         display: flex;
         flex-direction: column;
@@ -162,6 +163,11 @@ main .cultivo3 .textocultivo{
 
 
     body .pecho {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .hojastexto{
         display: flex;
         flex-direction: column;
     }
@@ -303,6 +309,10 @@ main .cultivo3 .textocultivo{
         width: 400px;
         height: auto;
     }
+
+    .somos .textsomos{
+        width: 400px;
+    }
 }
 
 @media screen and (max-width: 439px) {
@@ -367,6 +377,12 @@ main .cultivo3 .textocultivo{
 }
 
 @media screen and (max-width: 380px) {
+    
+    .asideorigen .origenimgp img{
+        margin-left: 0px;
+        margin-top: 15px;    
+    }
+    
     .tarjetas .tarjetascompra1 {
         width: 300px;
     }
@@ -428,5 +444,20 @@ main .cultivo3 .textocultivo{
 
     .tarjetas .tarjetascompra3 .tarjeta9 {
         margin: 5px;
+    }
+}
+
+@media screen and (max-width: 350px){
+    .somos .img {
+        width: 250px;
+        height: 250px;
+    }
+
+    .somos .textsomos .h2p{
+        margin: 0px;
+        width: 300px;
+    }
+    .somos .textsomos{
+        width: 300px;
     }
 }
