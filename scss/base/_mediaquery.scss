@@ -119,19 +119,19 @@ main .cultivo3 .textocultivo{
 
 @media screen and (max-width:1120px) {
 
-    .tarjetas .tarjetascompra1 {
+    main .tarjetas .tarjetascompra1 {
         display: flex;
         flex-direction: column;
         width: 380px;
     }
 
-    .tarjetas .tarjetascompra2 {
+    main .tarjetas .tarjetascompra2 {
         display: flex;
         flex-direction: column;
         width: 380px;
     }
 
-    .tarjetas .tarjetascompra3 {
+    main .tarjetas .tarjetascompra3 {
         display: flex;
         flex-direction: column;
         width: 380px;
@@ -184,6 +184,19 @@ main .cultivo3 .textocultivo{
 
     .pecho aside .form div input {
         width: 100px;
+    }
+
+    main .centro .somos 
+    {
+    display: flex;
+    flex-direction: column;
+    }
+
+    .centro .somos img{
+        margin-left: 20%;
+    }
+    .pecho .mainindex .centro .somos .textsomos{
+        margin-left: 20%;
     }
 }
 
@@ -239,13 +252,9 @@ main .cultivo3 .textocultivo{
         display: flex;
         flex-direction: column;
     }
-}
 
-@media screen and (max-width: 710px) {
-    main .centro .somos 
-    {
-    display: flex;
-    flex-direction: column;
+    main .cultivofoto{
+        margin: 0px;
     }
 }
 
@@ -276,6 +285,22 @@ main .cultivo3 .textocultivo{
     .lista {
         display: flex;
         flex-direction: column;
+    }
+
+    main section .parrafo1{
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    main section .parimg .parrafo2{
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    .centro .somos img{
+        margin-left: 10%;
+    }
+    .pecho .mainindex .centro .somos .textsomos{
+        margin-left: 10%;
     }
 }
 
@@ -312,6 +337,20 @@ main .cultivo3 .textocultivo{
 
     .somos .textsomos{
         width: 400px;
+    }
+
+    .centro .somos img{
+        margin-left: 5%;
+        width: 350px;
+        height: auto;
+        margin-right: 0px;
+    }
+    .pecho .mainindex .centro .somos .textsomos{
+        margin: 0px;
+    }
+    
+    .pecho .mainindex .centro .somos div p{
+        margin: 0px;
     }
 }
 
@@ -364,6 +403,10 @@ main .cultivo3 .textocultivo{
         width: 300px;
         height: auto;
     }
+
+    .pecho .mainindex .centro .somos .textsomos{
+        width: 300px;
+    }
 }
 
 @media screen and (max-width: 382px) {
@@ -383,69 +426,101 @@ main .cultivo3 .textocultivo{
         margin-top: 15px;    
     }
     
-    .tarjetas .tarjetascompra1 {
+    main .tarjetas .tarjetascompra1 {
         width: 300px;
     }
 
-    .tarjetas .tarjetascompra1 .tarjeta1 {
-        margin: 5px;
-    }
-
-    .tarjetas .tarjetascompra1 .tarjeta2 {
-        margin: 5px;
-    }
-
-    .tarjetas .tarjetascompra1 .tarjeta3 {
-        margin: 5px;
-    }
-
-    .tarjetas .tarjetascompra1 img {
-        width: 250px;
+    main .tarjetas .tarjetascompra1 .tarjeta1 {
+        padding: 5px;
+        margin: 10px;
+        width: 300px;
         height: auto;
     }
 
-    .tarjetas .tarjetascompra2 {
+    main .tarjetas .tarjetascompra1 .tarjeta2 {
+        padding: 5px;
+        margin: 10px;
+        width: 300px;
+        height: auto;
+    }
+
+    main .tarjetas .tarjetascompra1 .tarjeta3 {
+        padding: 5px;
+        margin: 10px;
+        width: 300px;
+        height: auto;
+    }
+
+    main .tarjetas .tarjetascompra1 img {
+        width: 100%;
+        height: auto;
+    }
+
+    main .tarjetas .tarjetascompra2 {
         width: 300px;
     }
 
-    .tarjetas .tarjetascompra2 img {
-        width: 250px;
+    main .tarjetas .tarjetascompra2 img {
+        width: 100%;
         height: auto;
     }
 
-    .tarjetas .tarjetascompra2 .tarjeta4 {
-        margin: 5px;
+    main .tarjetas .tarjetascompra2 .tarjeta4 {
+        padding: 5px;
+        margin: 10px;
+        width: 300px;
+        height: auto;
+        }
+
+    main .tarjetas .tarjetascompra2 .tarjeta5 {
+        padding: 5px;
+        margin: 10px;
+        width: 300px;
+        height: auto;
     }
 
-    .tarjetas .tarjetascompra2 .tarjeta5 {
-        margin: 5px;
+    main .tarjetas .tarjetascompra2 .tarjeta6 {
+        padding: 5px;
+        margin: 10px;
+        width: 300px;
+        height: auto;
     }
 
-    .tarjetas .tarjetascompra2 .tarjeta6 {
-        margin: 5px;
-    }
-
-    .tarjetas .tarjetascompra3 {
+    main .tarjetas .tarjetascompra3 {
         width: 300px;
     }
 
-    .tarjetas .tarjetascompra3 img {
-        width: 250px;
+    main .tarjetas .tarjetascompra3 img {
+        width: 100%;
         height: auto;
     }
 
-    .tarjetas .tarjetascompra3 .tarjeta7 {
-        margin: 5px;
+    main .tarjetas .tarjetascompra3 .tarjeta7 {
+        padding: 5px;
+        margin: 10px;
+        width: 300px;
+        height: auto;
     }
 
-    .tarjetas .tarjetascompra3 .tarjeta8 {
-        margin: 5px;
+    main .tarjetas .tarjetascompra3 .tarjeta8 {
+        padding: 5px;
+        margin: 10px;
+        width: 300px;
+        height: auto;
     }
 
-    .tarjetas .tarjetascompra3 .tarjeta9 {
-        margin: 5px;
+    main .tarjetas .tarjetascompra3 .tarjeta9 {
+        padding: 5px;
+        margin: 10px;
+        width: 300px;
+        height: auto;
+    }
+
+    main .tallo1 p{
+        margin: 0px;
     }
 }
+
 
 @media screen and (max-width: 350px){
     .somos .img {

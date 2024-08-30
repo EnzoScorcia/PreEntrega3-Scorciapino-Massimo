@@ -1,4 +1,5 @@
-$colorfondo: #19960cab;
+$colorfondo: #138b05ab;
+$colorsecundario: #0c4d05ab;
 
 @mixin tarjetacompra{
     display: flex;
@@ -70,18 +71,19 @@ $colorfondo: #19960cab;
                 img {
                     border: #0b1f08;
                     border-style: solid;
+                    margin-right: 40px;
                 }
 
                 div {
-                    width: 350px;
-
+                    width: 400px;
+                    margin-left: 60px;
                     h2 {
-                        font-size: 30px;
+                        font-size: 40px;
                         text-align: center;
                     }
 
                     p {
-                        font-size: 20px;
+                        font-size: 22px;
                     }
                 }
             }
@@ -595,13 +597,14 @@ main {
     h1 {
         text-align: center;
         text-decoration: underline;
+        padding-top: 15px;
     }
 
-    div {
+    section {
         .parrafo1 {
             text-align: center;
-            margin-left: 40px;
-            margin-right: 40px;
+            margin-left: 80px;
+            margin-right: 80px;
             padding-bottom: 50px;
         }
 
@@ -619,8 +622,8 @@ main {
             .parrafo2 {
                 font-size: 25px;
                 text-align: center;
-                margin-left: 40px;
-                margin-right: 40px;
+                margin-left: 80px;
+                margin-right: 80px;
                 padding-bottom: 50px;
             }
         }
