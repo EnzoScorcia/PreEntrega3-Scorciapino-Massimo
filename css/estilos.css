@@ -305,13 +305,13 @@ main {
       background-size: cover;
       width: 40px;
       height: 40px; }
-  main div .tarjetascompra1 {
+  main .tarjetas .tarjetascompra1 {
     display: flex;
     flex-direction: row;
     justify-content: center; }
-    main div .tarjetascompra1 .tarjeta1,
-    main div .tarjetascompra1 .tarjeta2,
-    main div .tarjetascompra1 .tarjeta3 {
+    main .tarjetas .tarjetascompra1 .tarjeta1,
+    main .tarjetas .tarjetascompra1 .tarjeta2,
+    main .tarjetas .tarjetascompra1 .tarjeta3 {
       display: flex;
       flex-direction: column;
       background-color: #84df84;
@@ -320,48 +320,48 @@ main {
       margin: 25px;
       transition: 1s;
       color: black; }
-      main div .tarjetascompra1 .tarjeta1:hover,
-      main div .tarjetascompra1 .tarjeta2:hover,
-      main div .tarjetascompra1 .tarjeta3:hover {
+      main .tarjetas .tarjetascompra1 .tarjeta1:hover,
+      main .tarjetas .tarjetascompra1 .tarjeta2:hover,
+      main .tarjetas .tarjetascompra1 .tarjeta3:hover {
         transform: scale(1.1);
         cursor: grab; }
-      main div .tarjetascompra1 .tarjeta1 img,
-      main div .tarjetascompra1 .tarjeta2 img,
-      main div .tarjetascompra1 .tarjeta3 img {
+      main .tarjetas .tarjetascompra1 .tarjeta1 img,
+      main .tarjetas .tarjetascompra1 .tarjeta2 img,
+      main .tarjetas .tarjetascompra1 .tarjeta3 img {
         border: #0b1f08 solid 2px; }
-      main div .tarjetascompra1 .tarjeta1 div,
-      main div .tarjetascompra1 .tarjeta2 div,
-      main div .tarjetascompra1 .tarjeta3 div {
+      main .tarjetas .tarjetascompra1 .tarjeta1 div,
+      main .tarjetas .tarjetascompra1 .tarjeta2 div,
+      main .tarjetas .tarjetascompra1 .tarjeta3 div {
         display: flex;
         flex-direction: row; }
-        main div .tarjetascompra1 .tarjeta1 div a,
-        main div .tarjetascompra1 .tarjeta2 div a,
-        main div .tarjetascompra1 .tarjeta3 div a {
+        main .tarjetas .tarjetascompra1 .tarjeta1 div a,
+        main .tarjetas .tarjetascompra1 .tarjeta2 div a,
+        main .tarjetas .tarjetascompra1 .tarjeta3 div a {
           text-align: center;
           text-decoration: none;
           font-size: 25px;
           margin-top: 6px;
           width: 150px;
           color: black; }
-          main div .tarjetascompra1 .tarjeta1 div a:hover,
-          main div .tarjetascompra1 .tarjeta2 div a:hover,
-          main div .tarjetascompra1 .tarjeta3 div a:hover {
+          main .tarjetas .tarjetascompra1 .tarjeta1 div a:hover,
+          main .tarjetas .tarjetascompra1 .tarjeta2 div a:hover,
+          main .tarjetas .tarjetascompra1 .tarjeta3 div a:hover {
             border: #0b1f08 solid 2px;
             border-radius: 60px;
             margin-top: 2px;
             background-color: black;
             color: white; }
-      main div .tarjetascompra1 .tarjeta1 h4,
-      main div .tarjetascompra1 .tarjeta2 h4,
-      main div .tarjetascompra1 .tarjeta3 h4 {
+      main .tarjetas .tarjetascompra1 .tarjeta1 h4,
+      main .tarjetas .tarjetascompra1 .tarjeta2 h4,
+      main .tarjetas .tarjetascompra1 .tarjeta3 h4 {
         text-align: center; }
-  main div .tarjetascompra2 {
+  main .tarjetas .tarjetascompra2 {
     display: flex;
     flex-direction: row;
     justify-content: center; }
-    main div .tarjetascompra2 .tarjeta4,
-    main div .tarjetascompra2 .tarjeta5,
-    main div .tarjetascompra2 .tarjeta6 {
+    main .tarjetas .tarjetascompra2 .tarjeta4,
+    main .tarjetas .tarjetascompra2 .tarjeta5,
+    main .tarjetas .tarjetascompra2 .tarjeta6 {
       display: flex;
       flex-direction: column;
       background-color: #84df84;
@@ -370,48 +370,48 @@ main {
       margin: 25px;
       transition: 1s;
       color: black; }
-      main div .tarjetascompra2 .tarjeta4:hover,
-      main div .tarjetascompra2 .tarjeta5:hover,
-      main div .tarjetascompra2 .tarjeta6:hover {
+      main .tarjetas .tarjetascompra2 .tarjeta4:hover,
+      main .tarjetas .tarjetascompra2 .tarjeta5:hover,
+      main .tarjetas .tarjetascompra2 .tarjeta6:hover {
         transform: scale(1.1);
         cursor: grab; }
-      main div .tarjetascompra2 .tarjeta4 img,
-      main div .tarjetascompra2 .tarjeta5 img,
-      main div .tarjetascompra2 .tarjeta6 img {
+      main .tarjetas .tarjetascompra2 .tarjeta4 img,
+      main .tarjetas .tarjetascompra2 .tarjeta5 img,
+      main .tarjetas .tarjetascompra2 .tarjeta6 img {
         border: #0b1f08 solid 2px; }
-      main div .tarjetascompra2 .tarjeta4 div,
-      main div .tarjetascompra2 .tarjeta5 div,
-      main div .tarjetascompra2 .tarjeta6 div {
+      main .tarjetas .tarjetascompra2 .tarjeta4 div,
+      main .tarjetas .tarjetascompra2 .tarjeta5 div,
+      main .tarjetas .tarjetascompra2 .tarjeta6 div {
         display: flex;
         flex-direction: row; }
-        main div .tarjetascompra2 .tarjeta4 div a,
-        main div .tarjetascompra2 .tarjeta5 div a,
-        main div .tarjetascompra2 .tarjeta6 div a {
+        main .tarjetas .tarjetascompra2 .tarjeta4 div a,
+        main .tarjetas .tarjetascompra2 .tarjeta5 div a,
+        main .tarjetas .tarjetascompra2 .tarjeta6 div a {
           text-align: center;
           text-decoration: none;
           font-size: 25px;
           margin-top: 6px;
           width: 150px;
           color: black; }
-          main div .tarjetascompra2 .tarjeta4 div a:hover,
-          main div .tarjetascompra2 .tarjeta5 div a:hover,
-          main div .tarjetascompra2 .tarjeta6 div a:hover {
+          main .tarjetas .tarjetascompra2 .tarjeta4 div a:hover,
+          main .tarjetas .tarjetascompra2 .tarjeta5 div a:hover,
+          main .tarjetas .tarjetascompra2 .tarjeta6 div a:hover {
             border: #0b1f08 solid 2px;
             border-radius: 60px;
             margin-top: 2px;
             background-color: black;
             color: white; }
-      main div .tarjetascompra2 .tarjeta4 h4,
-      main div .tarjetascompra2 .tarjeta5 h4,
-      main div .tarjetascompra2 .tarjeta6 h4 {
+      main .tarjetas .tarjetascompra2 .tarjeta4 h4,
+      main .tarjetas .tarjetascompra2 .tarjeta5 h4,
+      main .tarjetas .tarjetascompra2 .tarjeta6 h4 {
         text-align: center; }
-  main div .tarjetascompra3 {
+  main .tarjetas .tarjetascompra3 {
     display: flex;
     flex-direction: row;
     justify-content: center; }
-    main div .tarjetascompra3 .tarjeta7,
-    main div .tarjetascompra3 .tarjeta8,
-    main div .tarjetascompra3 .tarjeta9 {
+    main .tarjetas .tarjetascompra3 .tarjeta7,
+    main .tarjetas .tarjetascompra3 .tarjeta8,
+    main .tarjetas .tarjetascompra3 .tarjeta9 {
       display: flex;
       flex-direction: column;
       background-color: #84df84;
@@ -420,40 +420,40 @@ main {
       margin: 25px;
       transition: 1s;
       color: black; }
-      main div .tarjetascompra3 .tarjeta7:hover,
-      main div .tarjetascompra3 .tarjeta8:hover,
-      main div .tarjetascompra3 .tarjeta9:hover {
+      main .tarjetas .tarjetascompra3 .tarjeta7:hover,
+      main .tarjetas .tarjetascompra3 .tarjeta8:hover,
+      main .tarjetas .tarjetascompra3 .tarjeta9:hover {
         transform: scale(1.1);
         cursor: grab; }
-      main div .tarjetascompra3 .tarjeta7 img,
-      main div .tarjetascompra3 .tarjeta8 img,
-      main div .tarjetascompra3 .tarjeta9 img {
+      main .tarjetas .tarjetascompra3 .tarjeta7 img,
+      main .tarjetas .tarjetascompra3 .tarjeta8 img,
+      main .tarjetas .tarjetascompra3 .tarjeta9 img {
         border: #0b1f08 solid 2px; }
-      main div .tarjetascompra3 .tarjeta7 div,
-      main div .tarjetascompra3 .tarjeta8 div,
-      main div .tarjetascompra3 .tarjeta9 div {
+      main .tarjetas .tarjetascompra3 .tarjeta7 div,
+      main .tarjetas .tarjetascompra3 .tarjeta8 div,
+      main .tarjetas .tarjetascompra3 .tarjeta9 div {
         display: flex;
         flex-direction: row; }
-        main div .tarjetascompra3 .tarjeta7 div a,
-        main div .tarjetascompra3 .tarjeta8 div a,
-        main div .tarjetascompra3 .tarjeta9 div a {
+        main .tarjetas .tarjetascompra3 .tarjeta7 div a,
+        main .tarjetas .tarjetascompra3 .tarjeta8 div a,
+        main .tarjetas .tarjetascompra3 .tarjeta9 div a {
           text-align: center;
           text-decoration: none;
           font-size: 25px;
           margin-top: 6px;
           width: 150px;
           color: black; }
-          main div .tarjetascompra3 .tarjeta7 div a:hover,
-          main div .tarjetascompra3 .tarjeta8 div a:hover,
-          main div .tarjetascompra3 .tarjeta9 div a:hover {
+          main .tarjetas .tarjetascompra3 .tarjeta7 div a:hover,
+          main .tarjetas .tarjetascompra3 .tarjeta8 div a:hover,
+          main .tarjetas .tarjetascompra3 .tarjeta9 div a:hover {
             border: #0b1f08 solid 2px;
             border-radius: 60px;
             margin-top: 2px;
             background-color: black;
             color: white; }
-      main div .tarjetascompra3 .tarjeta7 h4,
-      main div .tarjetascompra3 .tarjeta8 h4,
-      main div .tarjetascompra3 .tarjeta9 h4 {
+      main .tarjetas .tarjetascompra3 .tarjeta7 h4,
+      main .tarjetas .tarjetascompra3 .tarjeta8 h4,
+      main .tarjetas .tarjetascompra3 .tarjeta9 h4 {
         text-align: center; }
 
 main h1 {
